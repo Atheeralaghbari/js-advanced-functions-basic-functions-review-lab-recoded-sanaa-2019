@@ -33,9 +33,7 @@ function actionApplyer(arr,startingPoint=0){
     return startingPoint;
   }
 else{
-
-arr=[function(a){ return a * 2 },function(a){ return a + 1000},function(a){ return a % 7 }]
-          return arr;
+b.map(e=>e)
 }
   
 }
