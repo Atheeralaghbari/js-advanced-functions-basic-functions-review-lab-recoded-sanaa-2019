@@ -38,5 +38,4 @@ startingPoint.map(e=>{arr=e(arr)});
 return arr;
   
 }
-let arry=[]
-console.log(actionApplyer(arry));
+
