@@ -27,8 +27,8 @@ let Calculator={
     return num1/num2;
   }
 }
-function actionApplyer(arr=[],startingPoint=0){
-  if (arr.length<1)
+function actionApplyer(arr,startingPoint=0){
+  if (arr.length==0)
   {
     return startingPoint;
   }
