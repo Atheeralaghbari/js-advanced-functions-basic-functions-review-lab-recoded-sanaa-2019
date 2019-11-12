@@ -33,8 +33,9 @@ function actionApplyer(arr,startingPoint=0){
     return startingPoint;
   }
 else{
-b.map(e=>arr=e(arr));
+startingPoint.map(e=>{arr=e(arr)});
 }
+return arr;
   
 }
 let arry=[]
