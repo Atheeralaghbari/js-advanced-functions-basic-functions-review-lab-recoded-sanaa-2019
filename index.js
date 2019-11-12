@@ -33,7 +33,7 @@ function actionApplyer(arr,startingPoint=0){
     return startingPoint;
   }
 else{
-b.map(e=>e)
+b.map(e=>arr=e(arr));
 }
   
 }
